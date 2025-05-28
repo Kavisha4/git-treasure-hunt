@@ -13,3 +13,4 @@ This is a basic static site that students will use to learn version control.
 - `.gitignore` – Ignored files for Git
 
 Start hacking! 🚀
+<!-- FLAG: team-e-5901 -->
