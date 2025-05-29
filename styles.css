@@ -17,4 +17,69 @@ body {
     padding: 10px 20px;
     cursor: pointer;
   }
-  
+  body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.login-container {
+  background: white;
+  max-width: 300px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #0056b3;
+}
+
+.message-box {
+  margin-top: 1rem;
+  display: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.message-box.error {
+  background: #dc3545;
+}
+
+.message-box.success {
+  background: #28a745;
+}
