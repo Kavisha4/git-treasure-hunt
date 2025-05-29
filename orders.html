@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order History</title>
+  <link rel="stylesheet" href="orders.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Your Orders</h1>
+    <div class="controls">
+      <select id="statusFilter">
+        <option value="all">All Statuses</option>
+        <option value="delivered">Delivered</option>
+        <option value="pending">Pending</option>
+      </select>
+
+      <input type="date" id="dateFilter" />
+      <button id="toggleDarkMode">🌙 Dark Mode</button>
+    </div>
+  </header>
+
+  <main id="order-container">
+    <!-- Orders will be populated here dynamically -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FlashStore</p>
+  </footer>
+
+  <script src="orders.js"></script>
+</body>
+</html>
